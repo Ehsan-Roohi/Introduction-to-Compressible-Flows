@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these computational notebooks, please cite the repository version or commit."
+title: "Introduction to Compressible Flows: Computational Companion"
+type: software
+authors:
+  - family-names: Roohi
+    given-names: Ehsan
+    orcid: "https://orcid.org/0000-0001-5739-3210"
+repository-code: "https://github.com/Ehsan-Roohi/Introduction-to-Compressible-Flows"
+url: "https://github.com/Ehsan-Roohi/Introduction-to-Compressible-Flows"
+license: MIT
+abstract: >-
+  Chapter-organized Python notebooks accompanying the textbook Introduction to
+  Compressible Flows, covering Rayleigh flow, oblique shocks, shock polars,
+  interacting shocks, shock tubes, converging-diverging nozzles, and conical
+  flow through transparent analytical and numerical teaching implementations.
+keywords:
+  - compressible flow
+  - gas dynamics
+  - Rayleigh flow
+  - oblique shock
+  - shock tube
+  - converging-diverging nozzle
+  - Taylor-Maccoll equation
+  - engineering education
+version: "0.1.0"
+date-released: "2026-08-28"

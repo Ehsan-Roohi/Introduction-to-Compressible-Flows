@@ -1,0 +1,38 @@
+name: Code or documentation bug
+description: Report a reproducible software, notebook, link, or documentation problem.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: notebook
+    attributes:
+      label: Notebook or file
+      placeholder: notebooks/chapter08/08_normal_shock_location_cd_nozzle.ipynb
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the exact command or cell and the complete error.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version, operating system, and relevant package versions.
+    validations:
+      required: true

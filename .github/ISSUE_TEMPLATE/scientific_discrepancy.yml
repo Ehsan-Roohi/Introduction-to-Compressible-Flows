@@ -1,0 +1,38 @@
+name: Scientific discrepancy
+description: Report a physical, mathematical, units, or numerical-consistency concern.
+title: "[Scientific discrepancy]: "
+labels: [scientific-review]
+body:
+  - type: input
+    id: notebook
+    attributes:
+      label: Notebook and chapter
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs and units
+      description: Include every input, gamma, gas model, tolerance, step, and sweep resolution.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result and basis
+      description: Cite the equation, limiting case, conservation statement, table, or benchmark used.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Checks already performed
+      description: Include tolerance refinement, fresh-kernel rerun, and any independent calculation.
+    validations:
+      required: true

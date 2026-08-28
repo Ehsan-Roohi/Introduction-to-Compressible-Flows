@@ -1,0 +1,14 @@
+.venv/
+.deps/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.mplconfig/
+.smoke-*/
+.DS_Store
+Thumbs.db
+outputs/
+*.plt
+R_phi_polar_90_180.png

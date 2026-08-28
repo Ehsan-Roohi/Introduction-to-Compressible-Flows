@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Introduction to Compressible Flows</title>
+  <desc id="desc">A stylized converging-diverging nozzle, shock waves, and conical-flow streamlines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071d2b"/>
+      <stop offset="0.55" stop-color="#0b5165"/>
+      <stop offset="1" stop-color="#168aad"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8ecae6" stop-opacity="0.2"/>
+      <stop offset="0.55" stop-color="#d9f3ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffb703" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <g fill="none" stroke="#7dd3fc" stroke-opacity="0.18">
+    <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200"/>
+    <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
+  </g>
+  <g transform="translate(42 38)">
+    <text x="0" y="46" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700">Introduction to Compressible Flows</text>
+    <text x="2" y="80" fill="#bae6fd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Computational companion • chapter-linked notebooks • reproducible gas dynamics</text>
+  </g>
+  <g transform="translate(52 145)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 24 C170 24 235 54 330 88 C430 122 535 128 674 116 C808 104 878 72 1000 48" stroke="#e0f2fe" stroke-width="4"/>
+    <path d="M0 166 C170 166 235 136 330 102 C430 68 535 62 674 74 C808 86 878 118 1000 142" stroke="#e0f2fe" stroke-width="4"/>
+    <path d="M0 95H1008" stroke="url(#flow)" stroke-width="10" filter="url(#glow)"/>
+    <path d="M458 70 L488 120" stroke="#fb7185" stroke-width="5"/>
+    <path d="M476 68 L506 118" stroke="#fb7185" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M1010 95 L1110 48 L1110 142 Z" fill="#ffb703" fill-opacity="0.18" stroke="#ffd166" stroke-width="3"/>
+    <path d="M1010 95 L1088 27M1010 95 L1135 12M1010 95 L1088 163M1010 95 L1135 178" stroke="#ffd166" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M1038 77 Q1085 95 1038 113" stroke="#fef3c7" stroke-width="3"/>
+  </g>
+  <g transform="translate(52 322)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#dff6ff">
+    <text x="0" y="0">Rayleigh flow</text><circle cx="105" cy="-5" r="3" fill="#7dd3fc"/>
+    <text x="122" y="0">shock interactions</text><circle cx="255" cy="-5" r="3" fill="#fb7185"/>
+    <text x="272" y="0">C–D nozzles</text><circle cx="366" cy="-5" r="3" fill="#ffb703"/>
+    <text x="383" y="0">Taylor–Maccoll conical flow</text>
+  </g>
+</svg>
