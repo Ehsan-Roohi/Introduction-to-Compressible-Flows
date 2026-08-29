@@ -82,7 +82,9 @@ Introduction-to-Compressible-Flows/
 └── requirements.txt           # Reproducible Python environment
 ```
 
-## Relationship to FlowMLLab
+## Related computational projects
+
+Machine-learning codes specifically related to gas dynamics are maintained in [GasDynamicsSciML](https://github.com/Ehsan-Roohi/GasDynamicsSciML). Use this repository for the textbook-aligned classical compressible-flow solvers and GasDynamicsSciML for the related scientific-machine-learning models and experiments.
 
 The repository organization adopts lessons from [FlowMLLab](https://github.com/Ehsan-Roohi/FlowMLLab): a visible entry point, one-click notebook launch, explicit scientific scope, clean notebooks, machine-readable metadata, citation support, issue templates, and automated release checks. The two projects remain separate: FlowMLLab focuses on reproducible CFD-to-scientific-machine-learning experiments, while this repository follows the chapter structure of the compressible-flow textbook.
 
